@@ -1,0 +1,130 @@
+/* General styles for all screens */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #081b29;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ededed;
+}
+
+/* Adjust for smaller screens */
+@media only screen and (max-width: 1200px) {
+    .home {
+        flex-direction: column;
+        padding: 10% 5%;
+    }
+    
+    .img1 {
+        width: 50%;
+        margin-right: 0;
+        margin-top: 20px;
+    }
+
+    .home-content {
+        max-width: 90%;
+        text-align: center;
+    }
+
+    .home-content h1 {
+        font-size: 40px;
+    }
+
+    .home-content h3 {
+        font-size: 24px;
+    }
+
+}
+
+/* For tablets */
+@media only screen and (max-width: 768px) {
+    .header {
+        padding: 10px 5%;
+    }
+
+    .nbar a {
+        margin-left: 20px;
+        font-size: 16px;
+    }
+
+    .home-content h1 {
+        font-size: 36px;
+    }
+
+    .home-content h3 {
+        font-size: 22px;
+    }
+
+    .about-img {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .about-img .img2 {
+        width: 16rem;
+        height: 16rem;
+    }
+
+    .edu-container1, .edu-container2, .edu-container3, .edu-container4 {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+/* For mobile screens */
+@media only screen and (max-width: 480px) {
+    .header {
+        flex-direction: column;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .nbar {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .home {
+        padding: 5% 2%;
+    }
+
+    .home-content h1 {
+        font-size: 28px;
+    }
+
+    .home-content h3 {
+        font-size: 20px;
+    }
+
+    .btn-box {
+        width: 100%;
+    }
+
+    .about-img {
+        width: 15rem;
+        height: 15rem;
+    }
+
+    .about-img .img2 {
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .edu-container1, .edu-container2, .edu-container3, .edu-container4 {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    
+    #contact {
+        padding: 2% 5%;
+    }
+
+    footer {
+        margin-top: 2rem;
+    }
+}
