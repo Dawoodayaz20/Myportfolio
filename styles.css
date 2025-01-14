@@ -417,12 +417,13 @@ html {
     cursor: pointer;
     margin-right: 1.2%;
     background: #ededed;
-    transition: 0s;
+    transition: 1.1s;
     overflow: hidden;
 }
 
 .footer-icons img:hover{
     border: 2px solid #00abf0;
+    transform: scale(1.1);
 }
 
 footer {    
@@ -430,4 +431,58 @@ footer {
     justify-content: center;
     margin: 0 1rem;
     height: 20vh;
+}
+
+            /*Project Section Styling */
+
+#projects{
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+#projects h1{
+    margin-bottom: 3rem;
+}
+.proj_1{
+    justify-content: center;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 2rem;
+    transition: 0.8s;
+    background-color: #00abf0;
+    font-weight: bolder;
+}
+.proj_title{
+    color: #081b29
+}
+.proj_1:hover{
+    transform: scale(1.1)
+}
+.proj_1_img{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 8px;
+}
+.proj_button{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #081b29;
+    width: 5.2rem;
+    height: 2rem;
+    border-radius: 8px;
+    border: solid #00abf0;
+    cursor: pointer;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.proj_button:hover{
+    transform: scale(1.1);
+}
+.proj_button a{
+    color: #00abf0;
+    text-decoration: none;
 }
